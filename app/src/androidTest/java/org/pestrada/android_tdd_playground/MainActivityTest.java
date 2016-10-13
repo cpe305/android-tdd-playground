@@ -26,10 +26,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 public class MainActivityTest {
     Activity activity = null;
 
-    /*
-    if tested wanted, change .travis.yml and remove the comments in before_script
-    
-    
+       
     
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
@@ -55,5 +52,5 @@ public class MainActivityTest {
         onView(withId(R.id.textView1))
                 .check(matches(withText("new text")));
     }
-    */
+    
 }
